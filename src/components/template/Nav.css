@@ -1,0 +1,47 @@
+div{
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    background: linear-gradient(to right, var(--bg-dark),#0f2027);
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 1fr; 
+    box-shadow: var(--shadow);
+    border-bottom: 2px solid var(--border-green);
+}
+.navegacao{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.menu .navegacao a{
+    text-decoration: none;
+    float: left;
+    font-size: 1em;
+    font-weight: bolder;
+    padding: 20px;
+    color: white; 
+}
+.menu .navegacao a:hover{
+    color: var(--border-green);
+    transition: .5s;
+}
+
+/* Estilizando a logo do menu */
+.logo p{
+    color: white;
+    font-weight: bolder;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo p span{
+    font-size: 1.3em;
+    color: var(--border-green);
+}
