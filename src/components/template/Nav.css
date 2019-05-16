@@ -8,6 +8,7 @@ div{
 .menu{
     position: fixed;
     top: 0;
+    z-index: 1000;
     background: linear-gradient(to right, var(--bg-dark),#0f2027);
     display: grid;
     grid-template-columns: 30% 1fr;
