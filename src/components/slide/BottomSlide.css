@@ -1,0 +1,18 @@
+.bottom-slide{
+    width: 100%;
+    height: 15vh;
+    background: linear-gradient(to right,var(--bg-dark) 90%,#0f2027);
+    display: grid;
+    border-top: 2px solid #2d3436;
+    border-bottom: 2px solid #2d3436;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+}
+i{
+    font-size: 3.8em;
+}
+i.devicon-express-original-wordmark{
+    color: var(--border-green);
+}
+.devicon-mysql-plain-wordmark{
+    font-size: 5em;
+}

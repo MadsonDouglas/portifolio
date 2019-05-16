@@ -2,5 +2,13 @@
   width: 100%;
 }
 .carrousel img{
-  height: 80vh;
+  height: 85vh;
+}
+div.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  z-index: 100;
 }
