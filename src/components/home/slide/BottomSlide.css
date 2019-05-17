@@ -16,3 +16,15 @@ i.devicon-express-original-wordmark{
 .devicon-mysql-plain-wordmark{
     font-size: 5em;
 }
+
+
+
+@media (max-width: 668px) {
+.devicon-nodejs-plain{
+    display:none;
+}
+.bottom-slide i{
+    font-size: 3em;
+}
+}
+

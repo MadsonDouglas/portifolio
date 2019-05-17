@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import './Servicos.css';
-import img1 from '../../img/servicos-2.jpg'
-import img2 from '../../img/carrousel-2.jpg'
+import img1 from '../../../img/servicos-2.jpg'
+import img2 from '../../../img/carrousel-2.jpg'
 
 import { FaAngellist, FaCommentDots, FaCloudDownloadAlt } from "react-icons/fa";
 import { IoMdSkipForward } from "react-icons/io";
@@ -32,7 +32,7 @@ export default class servicos extends Component {
                             </div>
 
                         </div>
-                        <a href="/">Entrar em contato</a>
+                        <a href="/">contratar</a>
                     </div>
                     <div class="middle">
                         <div class="text">
@@ -62,7 +62,7 @@ export default class servicos extends Component {
                         </div>
 
                     </div>
-                    <a href="/">Entrar em contato</a>
+                    <a href="/">contratar</a>
                     </div>
                     <div class="middle">
                         <div class="text">

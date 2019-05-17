@@ -1,19 +1,19 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 import './Nav.css'
 
 export default props =>
         <div className="menu">
             <div className="logo">
-                <a href="/">
+                <Link to="/">
                     <p><span>D</span>EV  <span>F</span>ullStack</p>
-                </a>
+                </Link>
             </div>
             <div className="navegacao">
-                <a href="/">Home</a>
-                <a href="/">Sobre</a>
-                <a href="/">Trabalhos</a>
-                <a href="/">Blog</a>
-                <a href="/">Portifolio</a>
+                <Link to="/">Home</Link>
+                <Link to="/sobre">Sobre</Link>
+                <Link to="/trabalhos">Trabalhos</Link>
+                <Link to="/blog">Blog</Link>
+                <Link to="/portfolio">Portfolio</Link>
             </div>
         </div>

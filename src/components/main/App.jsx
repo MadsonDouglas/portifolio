@@ -1,14 +1,17 @@
 import React from 'react'
 import './App.css'
+import { HashRouter } from 'react-router-dom'
+import Routes from './Routes'
 
 import Nav from '../template/Nav'
-import Slide from '../slide/Slide'
-import Diferenciais from '../diferenciais/Diferenciais'
-import Sevicos from '../servicos/Servicos'
+
+
+import Github from '../github/Github'
 export default props =>
-        <div className="app">
-                <Nav />
-                <Slide/>
-                <Diferenciais />
-                <Sevicos />
-        </div>
+        <HashRouter>
+                <div className="app">
+                        <Nav />
+                        <Routes />
+                        <Github />
+                </div>
+        </HashRouter>

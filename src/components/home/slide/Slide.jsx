@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import "./Slide.css"
-import img3 from '../../img/carrousel-1.jpg'
-import img2 from '../../img/carrousel-2.jpg'
-import img1 from '../../img/carrousel-3.jpg'
+import img3 from '../../../img/carrousel-1.jpg'
+import img2 from '../../../img/carrousel-2.jpg'
+import img1 from '../../../img/carrousel-3.jpg'
 import Bottom from './BottomSlide'
 
 
