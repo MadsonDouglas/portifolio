@@ -24,9 +24,32 @@
 .card span{
     padding: 0px 10px;
     border-radius: 5px;
-    background: var(--border-green);
     color: white;
 }
 .bg-b{
     background: turquoise !important;
+}
+.bg-g{
+    background: var(--border-green) !important;
+}
+
+.container.link{
+    padding: 0px !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.container.link a{
+    text-decoration: none;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+}
+.container.link a:hover{
+    opacity: .9;
+    transition: .5s;
 }
