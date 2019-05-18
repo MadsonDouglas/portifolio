@@ -1,0 +1,15 @@
+article.trabalhos{
+    width: 60%;
+    height: auto;
+    margin: 0 20%;
+    margin-top: 15vh;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    
+}
+.trabalhos div{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}

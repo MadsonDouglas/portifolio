@@ -1,0 +1,32 @@
+
+.card {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container {
+    padding-left: 30px;
+    border-bottom: 1px solid #ccc;
+    align-content: center !important;
+    justify-content: flex-start !important;
+}
+.card span{
+    padding: 0px 10px;
+    border-radius: 5px;
+    background: var(--border-green);
+    color: white;
+}
+.bg-b{
+    background: turquoise !important;
+}

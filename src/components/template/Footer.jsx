@@ -2,8 +2,8 @@ import React from 'react';
 
 // import { Container } from './styles';
 
-export default function sobre() {
+export default function template() {
   return (
-    <div/>
+    <div />
   );
 }

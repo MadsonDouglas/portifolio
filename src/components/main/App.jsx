@@ -4,14 +4,14 @@ import { HashRouter } from 'react-router-dom'
 import Routes from './Routes'
 
 import Nav from '../template/Nav'
+import Footer from '../template/Footer'
 
 
-import Github from '../github/Github'
 export default props =>
         <HashRouter>
                 <div className="app">
                         <Nav />
                         <Routes />
-                        <Github />
+                        <Footer />
                 </div>
         </HashRouter>
