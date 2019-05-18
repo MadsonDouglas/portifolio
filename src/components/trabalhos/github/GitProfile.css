@@ -53,3 +53,13 @@
     opacity: .9;
     transition: .5s;
 }
+
+
+@media (max-width: 1100px) {
+    .container-card{
+        width: 300px;
+    }
+    .card{
+        background: #fff;
+    }
+}

@@ -1,9 +1,8 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import  './Footer.css';
 
-export default function template() {
-  return (
-    <div />
-  );
-}
+export default props =>
+    <footer >
+        footer aqui testando
+    </footer>

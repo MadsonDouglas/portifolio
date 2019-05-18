@@ -34,8 +34,8 @@ export default class servicos extends Component {
                         </div>
                         <a href="/">contratar</a>
                     </div>
-                    <div class="middle">
-                        <div class="text">
+                    <div className="middle">
+                        <div className="text">
                             <h1>Avançado</h1>
                             <p>Os nossos serviços avançada envolvem desde a parte de banco de dado, até a gerencia de projetos com paginas Dinamicas.</p>
                             <FaAngellist className="icon" />
@@ -64,8 +64,8 @@ export default class servicos extends Component {
                     </div>
                     <a href="/">contratar</a>
                     </div>
-                    <div class="middle">
-                        <div class="text">
+                    <div className="middle">
+                        <div className="text">
                             <h1>Básico</h1>
                             <p>Os nossos serviços basicos envolvem a criação de paginas staticas com conteudo fixo.</p>
                             <FaAngellist className="icon" />

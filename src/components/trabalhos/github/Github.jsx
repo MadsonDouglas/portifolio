@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import Profile from './GitProfile'
+import Repos from './Repos'
 import './Github.css';
 
 export default class github extends Component {
@@ -20,27 +21,30 @@ export default class github extends Component {
     }
   }
   getUser = () => {
-    let user = 'MadsonDouglas'
-    let { url, client_id, client_secret, count, sort } = this.state.github
+    const user = 'MadsonDouglas'
+    const { url, client_id, client_secret, count, sort } = this.state.github
 
-    let get = `${url}/${user}?client_id=${client_id}&client_secret=${client_secret}`
+    const profle = `${url}/${user}?client_id=${client_id}&client_secret=${client_secret}`
+    const repositorios = `${url}/${user}/repos?per_page=${count}&sort=${sort}&client_id=${client_id}&client_secret=${client_secret}`
 
-    axios.get(get).then(({ data }) => {
-      this.setState({ user: data })
-    })
+    axios.get(profle).then(({ data }) => { this.setState({ user: data }) })
+    axios.get(repositorios).then(({ data }) => { this.setState({ repos: data }) })
   }
-
+  
   componentWillMount() {
     this.getUser()
   }
 
   render() {
-    console.log(this.state)
+    const {repos} = this.state
     return (
       <article className="trabalhos">
-        {this.state.user.length !== 0 ? <Profile user={this.state.user} /> : null}
-        
-        <div>2</div>
+        <div className="profile-render">
+            {this.state.user.length !== 0 ? <Profile user={this.state.user} /> : null}
+        </div>
+        <div className="repositorios">
+            {this.state.repos.length !== 0 ? repos.map(reps => <Repos key={reps.name} repo={reps} />) : null}
+        </div>
       </article>
     )
   }

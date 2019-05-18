@@ -24,7 +24,7 @@
     /* margin: 0; */
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr -1 1fr;
+    grid-template-rows: 1fr -1 1fr ;
 
 
     /* grid-template-areas: "logo header" "menu content" "menu footer"; */
