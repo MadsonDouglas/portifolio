@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
     "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
     "install": "^0.12.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

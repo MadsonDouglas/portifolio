@@ -23,13 +23,15 @@ export default class email extends Component {
         const { user_name, user_email, user_message  } = this.state
         // console.log(user_email, user_name, user_message)
         const url = `http://localhost:3001/send`
-        // axios.post(url, {
-        //     client_name: user_name,
-        //     client_contact:user_email,
-        //     client_message:user_message
-        // }).then(resp => {
-        //         console.log('requisição finalizada')
-        // })
+        axios({
+            method: 'post',
+            url: url,
+            data:{
+                client_email: user_email,
+                client_name: user_name,
+                client_message: user_message,
+            }
+        }).then(resp=> console.log(resp))
     }
   
     render() {
