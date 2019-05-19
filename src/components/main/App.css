@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 :root {
-    --border-cinza: #b2bec3;
+    --border-cinza: rgba(220, 221, 225,.5);
     --bg-blue: #2b32b2;
     --border-green: #4cd137;
     --bg-dark: #1A2F3A;

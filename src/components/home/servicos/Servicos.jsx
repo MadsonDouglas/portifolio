@@ -32,7 +32,6 @@ export default class servicos extends Component {
                             </div>
 
                         </div>
-                        <a href="/">contratar</a>
                     </div>
                     <div className="middle">
                         <div className="text">
@@ -62,7 +61,6 @@ export default class servicos extends Component {
                         </div>
 
                     </div>
-                    <a href="/">contratar</a>
                     </div>
                     <div className="middle">
                         <div className="text">

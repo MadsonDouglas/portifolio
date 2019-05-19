@@ -1,0 +1,77 @@
+.send-email{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+    padding: 100px 0;
+}
+.send-email .form-email {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;   
+}
+.send-email .form-email div{
+    justify-content: space-between;
+}
+.send-email .data-email{
+    width: 230px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.send-email .form-email .data-email:focus{
+    border: 2px solid turquoise;
+    transition: .2s;
+    border-radius: 5px;
+}
+
+.send-email .data-message{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+.send-email .enviar-email{
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    width: 30%;
+    height: 30px;
+    background: var(--border-green);
+    cursor: pointer;
+}
+.numeros-contatos{
+    width: 300px;
+}
+.numeros-contatos p{
+    text-align: center;
+}
+
+.black{
+    color: var(--bg-dark) !important;
+    font-size: 1.1em;
+}
+
+@media (max-width: 668px) {
+    .send-email .form-email{
+        width: 80%;
+    }
+    .send-email .form-email div{
+        flex-direction: column;
+    }
+    .send-email .data-email{
+        width: 100%;
+        margin: 5px 0;
+    }
+
+}
