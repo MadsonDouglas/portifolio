@@ -14,6 +14,5 @@ export default props =>
                 <Link to="/sobre">Sobre</Link>
                 <Link to="/trabalhos">Trabalhos</Link>
                 <Link to="/blog">Blog</Link>
-                <Link to="/portfolio">Portfolio</Link>
             </div>
         </div>
