@@ -34,7 +34,7 @@
 .img-sobre{
     width: 100%;
     height: 500px;
-    background-image: url('https://www.bravegroup.com.br/wp-content/uploads/2018/08/dev.jpeg');
+    background-image: url('../../img/dev.jpeg');
     background-size: cover; 
     background-attachment: fixed;
     position: relative;

@@ -9,9 +9,6 @@ export default props =>
 
 <div className="footer-left">
 
-    <div className="logo">
-        <p><span>D</span>EV  <span>F</span>ullStack</p>
-    </div>
     <p className="footer-company-name">Dev FullStack &copy; 2015</p>
 
 </div>
